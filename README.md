@@ -20,6 +20,14 @@ class myTheme {
           surface: const Color.fromARGB(255, 255, 255, 255),
           onSurface: Colors.black,
         ),
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.white,
+          elevation: 0,
+          iconTheme: IconThemeData(color: Colors.black),
+        ),
+        floatingActionButtonTheme: FloatingActionButtonThemeData(
+          backgroundColor: Colors.black,
+        ),
       );
 
   static ThemeData darkTheme(BuildContext context) => ThemeData(
@@ -37,8 +45,17 @@ class myTheme {
           surface: const Color.fromARGB(255, 0, 0, 0)!,
           onSurface: Colors.white,
         ),
+        appBarTheme: AppBarTheme(
+          backgroundColor: Colors.black,
+          elevation: 0,
+          iconTheme: IconThemeData(color: Colors.white),
+        ),
+        floatingActionButtonTheme: FloatingActionButtonThemeData(
+          backgroundColor: Colors.white,
+        ),
       );
 }
+
 =============================================================================
 
 
